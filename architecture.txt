@@ -1,0 +1,18 @@
+/VAPT_with_AI/
+├── main.py
+├── setup.py
+├── create_missing_files.py
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+├── modules/
+│   ├── __init__.py
+│   ├── information_gathering.py
+│   ├── scanner.py
+│   ├── ai_analyzer.py
+│   ├── pentest.py
+│   └── reporter.py
+└── utils/
+    ├── __init__.py
+    ├── helpers.py
+    └── api_client.py

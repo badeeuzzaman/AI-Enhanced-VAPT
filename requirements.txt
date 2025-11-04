@@ -1,0 +1,31 @@
+# AI-Enhanced VAPT Tool Requirements
+# Core Dependencies
+
+# Network Scanning
+python-nmap==0.7.1
+
+# API Communication
+requests==2.31.0
+
+# Enhanced Security & Features (Optional but recommended)
+urllib3==2.0.4
+chardet==5.2.0
+certifi==2023.7.22
+
+# Development & Testing (Optional)
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.7.0
+flake8==6.0.0
+
+# Documentation (Optional)
+sphinx==7.2.6
+sphinx-rtd-theme==1.3.0
+
+# Platform Specific Dependencies
+# Linux (Kali/Debian/Ubuntu): sudo apt install nmap
+# macOS: brew install nmap  
+# Windows: Download Nmap from https://nmap.org/download.html
+
+# Python Version Requirement
+# Requires Python 3.8 or higher
